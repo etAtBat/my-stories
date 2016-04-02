@@ -1,0 +1,22 @@
+{
+  "name": "my-stories",
+  "version": "1.0.0",
+  "description": "my-stories will allow users to save the most important memories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etAtBat/my-stories.git"
+  },
+  "author": "egan tamashiro, akash trivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etAtBat/my-stories/issues"
+  },
+  "homepage": "https://github.com/etAtBat/my-stories#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
