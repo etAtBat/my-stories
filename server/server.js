@@ -1,6 +1,7 @@
 var express = require('express');
 var path = require('path');
 var router = require('./routes/router.js');
+var db = require('./db/database.js');
 
 var app = express();
 
