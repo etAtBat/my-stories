@@ -68,6 +68,17 @@ module.exports = {
         res.send(response);
       }
     })
+  },
+
+  getStoryComments: function (res, id) {
+    db.query('select * from comments where comment_story = ' + id + ';', function (err, comments) {
+      if (err) {
+        throw(err);
+      } else {
+
+        res.send(comments);
+      }
+    });
   }
 
 };
